@@ -30,6 +30,6 @@ docker container ls -a
 
 To launch docker in interactive mode ==> docker container run -it --name test alpine sh
 
-To leave a container running in interactive mode == > ctrl-P-Q
+To leave a container running in interactive mode == > Ctrl+P+Q
 
 docker container rm test -f
