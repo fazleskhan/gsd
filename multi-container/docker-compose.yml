@@ -1,7 +1,7 @@
 version: "3.8"
 services:
-  web-fe:
-    build: .
+  web-fe:    
+    image: fazleskhan/gsd:multi-container
     command: python app.py
     ports:
       - target: 5000
