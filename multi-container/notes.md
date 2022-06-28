@@ -7,6 +7,10 @@ docker compose version
   The version of docker installed at this time is 20.10.9 and does not support docker plugins.
   On Windows Server 2019 substitute 'docker-compose' for 'docker compose'
 
+  To run on Windows Server 2019 the image must first be built on Windows 10 and pushed to the repo
+  docker image build -t fazleskhan/gsd:multi-container .
+  docker image push fazleskhan/gsd:multi-container
+
 docker compose up -d
 
 docker image ls
