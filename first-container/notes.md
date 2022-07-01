@@ -10,7 +10,7 @@ docker image rm fazleskhan/gsd:first-ctr
 
 docker image ls
 
-docker container run -d --name web -p 8000:8080 fazleskhan/gsd:first-ctr
+docker container run -d --name web -p 8000:8080 --platform=linux fazleskhan/gsd:first-ctr
 
 docker container ls
 
